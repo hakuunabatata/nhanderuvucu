@@ -12,6 +12,9 @@
     "@nrwl/js": "^14.5.4",
     "@nrwl/nest": "^14.5.4",
     "@nrwl/node": "^14.5.4",
+    "jsdom": "^20.0.0",
+    "puppeteer": "^16.1.0",
+    "puppeteer-core": "^16.1.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
