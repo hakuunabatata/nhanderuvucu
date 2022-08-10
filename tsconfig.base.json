@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@nhanderuvucu/boitata": ["libs/boitata/src/index.ts"],
-      "@nhanderuvucu/caipora": ["libs/caipora/src/index.ts"]
+      "@nhanderuvucu/caipora": ["libs/caipora/src/index.ts"],
+      "@nhanderuvucu/guaraci": ["libs/guaraci/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
