@@ -1,1 +1,1 @@
-export * from './lib/boitata';
+export class Boitata {}

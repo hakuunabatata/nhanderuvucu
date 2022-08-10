@@ -3,6 +3,6 @@
   "version": 2,
   "projects": {
     "boitata": "libs/boitata",
-    "caapora": "libs/caapora"
+    "caipora": "libs/caipora"
   }
 }

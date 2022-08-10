@@ -1,20 +1,20 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/caapora/src",
+  "sourceRoot": "libs/caipora/src",
   "projectType": "library",
   "targets": {
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["libs/caapora/**/*.ts"]
+        "lintFilePatterns": ["libs/caipora/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/caapora"],
+      "outputs": ["coverage/libs/caipora"],
       "options": {
-        "jestConfig": "libs/caapora/jest.config.ts",
+        "jestConfig": "libs/caipora/jest.config.ts",
         "passWithNoTests": true
       }
     }
